@@ -24,3 +24,18 @@ Run "sudo yum update" to apply all updates.
 
 http://ec2-54-252-128-18.ap-southeast-2.compute.amazonaws.com/
 Hello World!
+
+
+
+Login Succeeded
+[ec2-user@ip-10-0-0-158 ~]$ docker push 916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world:latest
+The push refers to repository [916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world]
+792a831d0217: Pushed
+7f3e21a4e693: Pushed
+7547faaeb56a: Pushed
+ddc500d84994: Pushed
+c64c52ea2c16: Pushed
+5930c9e5703f: Pushed
+b187ff70b2e4: Pushed
+latest: digest: sha256:56b974f92b9304c672531e38fe89aec75f5240528418249fb3a43d7e459adc66 size: 1778
+
