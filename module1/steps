@@ -1,0 +1,9 @@
+aws s3 mb s3://aws-kfc-bucket-20200620
+
+aws s3 website s3://aws-kfc-bucket-20200620-20200620 --index-document index.html
+
+aws s3api put-bucket-policy --bucket aws-kfc-bucket-20200620 --policy file://~/environment/aws-modern-application-workshop/module-1/aws-cli/website-bucket-policy.json
+
+aws s3 cp ~/environment/aws-modern-application-workshop/module-1/web/index.html s3://aws-kfc-bucket-20200620/index.html 
+ 
+http://aws-kfc-bucket-20200620.s3-website-ap-southeast-2.amazonaws.com
