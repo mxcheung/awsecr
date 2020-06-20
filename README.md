@@ -25,6 +25,10 @@ Run "sudo yum update" to apply all updates.
 http://ec2-54-252-128-18.ap-southeast-2.compute.amazonaws.com/
 Hello World!
 
+https://ecsworkshop.com/
+https://www.eksworkshop.com/
+
+
 
 
 Login Succeeded
