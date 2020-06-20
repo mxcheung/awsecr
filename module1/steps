@@ -1,3 +1,5 @@
+https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/module-one/
+
 aws s3 mb s3://aws-kfc-bucket-20200620
 
 aws s3 website s3://aws-kfc-bucket-20200620-20200620 --index-document index.html
