@@ -39,3 +39,5 @@ c64c52ea2c16: Pushed
 b187ff70b2e4: Pushed
 latest: digest: sha256:56b974f92b9304c672531e38fe89aec75f5240528418249fb3a43d7e459adc66 size: 1778
 
+
+916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world:latest
