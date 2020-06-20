@@ -1,5 +1,6 @@
 # awsecr
 
+Getting started with Amazon ECR using the AWS CLI
 https://docs.aws.amazon.com/AmazonECR/latest/userguide/getting-started-cli.html
 
 
