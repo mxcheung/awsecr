@@ -27,7 +27,7 @@ Hello World!
 
 https://ecsworkshop.com/
 https://www.eksworkshop.com/
-
+https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/module-two/
 
 
 
