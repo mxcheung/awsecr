@@ -41,3 +41,22 @@ latest: digest: sha256:56b974f92b9304c672531e38fe89aec75f5240528418249fb3a43d7e4
 
 
 916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world:latest
+
+latest: digest: sha256:56b974f92b9304c672531e38fe89aec75f5240528418249fb3a43d7e459adc66 size: 1778
+[ec2-user@ip-10-0-0-158 ~]$ docker pull 916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world:latest
+latest: Pulling from hello-world
+Digest: sha256:56b974f92b9304c672531e38fe89aec75f5240528418249fb3a43d7e459adc66
+Status: Image is up to date for 916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world:latest
+916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/hello-world:latest
+[ec2-user@ip-10-0-0-158 ~]$ aws ecr batch-delete-image \
+>       --repository-name hello-world \
+>       --image-ids imageTag=latest
+{
+    "failures": [],
+    "imageIds": [
+        {
+            "imageTag": "latest",
+            "imageDigest": "sha256:56b974f92b9304c672531e38fe89aec75f5240528418249fb3a43d7e459adc66"
+        }
+    ]
+
