@@ -8,3 +8,6 @@ aws cloudformation describe-stacks --stack-name MythicalMysfitsCoreStack
 
 docker build . -t 916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/mythicalmysfits/service:latest
 
+
+https://github.com/aws-samples/aws-modern-application-workshop/issues/192
+
