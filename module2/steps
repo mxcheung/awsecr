@@ -1,1 +1,6 @@
 https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-dynamodb-python/module-two/
+
+
+aws cloudformation create-stack --stack-name MythicalMysfitsCoreStack --capabilities CAPABILITY_NAMED_IAM --template-body file://~/environment/aws-modern-application-workshop/module-2/cfn/core.yml
+
+aws cloudformation describe-stacks --stack-name MythicalMysfitsCoreStack
