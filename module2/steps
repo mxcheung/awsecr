@@ -4,3 +4,7 @@ https://aws.amazon.com/getting-started/hands-on/build-modern-app-fargate-lambda-
 aws cloudformation create-stack --stack-name MythicalMysfitsCoreStack --capabilities CAPABILITY_NAMED_IAM --template-body file://~/environment/aws-modern-application-workshop/module-2/cfn/core.yml
 
 aws cloudformation describe-stacks --stack-name MythicalMysfitsCoreStack
+
+
+docker build . -t 916461470826.dkr.ecr.ap-southeast-2.amazonaws.com/mythicalmysfits/service:latest
+
